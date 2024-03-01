@@ -1,6 +1,10 @@
 # emmadarbro-bcog200-final-project
 Final Project for BCOG 200: Emma Darbro
-1.) Project Summary:
+1.) Project Summary: For this project, I plan to do some rendition of a modified dating app that would analyze certain features like location, height, interests of potential matches. This project would then return a compatability score based off of the user's ranking of importance and the deviations of the potential profiles from their own responses. It would likely be optimal to use integer comparison for most of these categeories, to be able to return a ranked similarity score, but some string variables can be stored in pre-set, subjective caterogies so the compatability score can still be returned. The other profiles would also be pre-set and weighted for each user responses to the importance of each profile category.
 
 2.) Functions and Descriptions:
+2a.) def store_profile(user): function to allow the profile user to put in their own (interger) scores for age, height, perceived extroversion, perceived attractiveness (everyone is a ten(:!) and for complexity, could be expanded to ask yes or no OR this or that questions to have some other metrics of matching profile choices
+2b.) def rank_importance(profile_categories): function would allow the profile user to rank the importance of each given category in the person/people they are being matched with. This will allow for categories to be weighted with multipliers to compute a compatibility score that is output at the end of the function execution.
+2c.) def compute_difference(profile_categories, user, profiles, importance_list): function would allow for the differences amongst user input and set profiles to be calculated and multiplied by each of the importance value weights that the user input. A compatibility score would be returned, and the higher the score, the closer the profile is to what the user is looking for; this will require a better math framing method that described above, but you get the point!
 
+3-4.) project will be completed independently 
