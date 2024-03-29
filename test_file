@@ -1,1 +1,26 @@
+Welcome to Brain Bae; where the Brain and Cognitive Science students of UIUC find you a bae! Below you will be asked a series of numerical questions related to some components that we will use to test your compatability withothers in our very elite, very kind, very smokeshow dating pool candidates.
+*these questions will populate in the termial, with this formatting, but I will calculate the score that should be returned based off of these values below and one test profile that is alreay stored in the python file base.*
+
+Please list your age in years: 20
+Please list your height in inches: 60
+Please list your (mailing address) distance from the Illini Union in miles (fractions of miles are fine): .6
+In the average week, how many times do you go out to bars, clubs, shows, etc? 1
+In the past 24 hours, how many individual/ different people did you text? 17
+How much money do you hope to make when you graduate from UIUC (in USD)?
+On a scale of 1-10 with 1 being the least, how attractive do you think you are? 8
+How many times a month do you call your mom? 5
+
+Great! Thank you! In the next set of questions we will ask you to rank how important the following qualities in a partner are to YOU on a scale of 1-10 with 1 being the least important attributes and 10 being the most imporant.
+
+How important is age to you? 2
+How important is height to you? 6
+How important is distance from your partner? 8
+How important is the extoversion of your partner? 10
+How important is the sociability of your partner? 7
+How important is the income of you partner? 5
+How important is the attractiveness of your partner? 6
+How important is the closeness of your partner to their family? 4
+
+Congratulations; it's a match! Below you can find our two best profile recommendations from our algorithm on similarities and values! Have fun, you two!
+
 
