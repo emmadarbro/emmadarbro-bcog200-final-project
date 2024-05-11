@@ -1,5 +1,6 @@
 Hi!
 Here are three test cases to run, given the survey questiosn that are asked, and the expected match values for each profile, given the question responses:
+
 Varation 1: 
 
 1) Please enter your name: *enter your name*
@@ -48,13 +49,13 @@ How important is attractiveness similarity to you? (1-10): *5*
 How important is family closeness similarity to you? (1-10): *5*
 
 EXPECTED OUTPUT:
-Similarity score with Taylor: 15
-Similarity score with Rowan: 30
-Similarity score with Quinn: 40
-Similarity score with Alex: 45
-Similarity score with Riley: 50
-Similarity score with Dakota: 70
-Similarity score with Noah: 85
+Similarity score with Taylor: 45
+Similarity score with Rowan: 55
+Similarity score with Quinn: 65
+Similarity score with Alex: 70
+Similarity score with Riley: 85
+Similarity score with Dakota: 90
+Similarity score with Noah: 105
 
 
 Varation 2: 
@@ -109,13 +110,13 @@ How important is attractiveness similarity to you? (1-10): *10*
 How important is family closeness similarity to you? (1-10): *10*
 
 EXPECTED OUTPUT:
-Similarity score with Dakota: 70
-Similarity score with Riley: 90
-Similarity score with Quinn: 190
-Similarity score with Rowan: 190
-Similarity score with Alex: 200
-Similarity score with Taylor: 200
-Similarity score with Noah: 320
+Similarity score with Dakota: 170
+Similarity score with Riley: 180
+Similarity score with Quinn: 260
+Similarity score with Taylor: 280
+Similarity score with Rowan: 280
+Similarity score with Alex: 290
+Similarity score with Noah: 380
 
 
 
@@ -171,13 +172,13 @@ How important is attractiveness similarity to you? (1-10): *1*
 How important is family closeness similarity to you? (1-10): *1*
 
 EXPECTED OUTPUT:
-Similarity score with Quinn: 6
+Similarity score with Quinn: 7
 Similarity score with Taylor: 11
-Similarity score with Rowan: 14
-Similarity score with Riley: 16
-Similarity score with Alex: 17
-Similarity score with Dakota: 18
-Similarity score with Noah: 21
+Similarity score with Rowan: 13
+Similarity score with Riley: 15
+Similarity score with Alex: 16
+Similarity score with Dakota: 16
+Similarity score with Noah: 23
 
 
 
