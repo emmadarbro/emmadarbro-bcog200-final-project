@@ -2,6 +2,10 @@
 ## Final Project for BCOG 200: Emma Darbro
 ### Final Project Summary 5/10/2024: For this project, I have created a modified dating app, but for people to find friends, through a survey-based approach that analyzes certain features like the location, height, and behaviors of potential matches. This project then returns a compatability score based off of the user's ranking of importance (the weights from user input) and the deviations of scores from stored, potential profiles from their own responses. For user questions where they are asked to denote a range, these range values are calculates into numbers from both the user profiles and the stored profiles. The differences between the user values and the stored profile values for a given 'attribute' are then multiplied b ythe user' importance' rating to generate the summed compatability score for each respective profile. The other stored profiles are  pre-set and weighted for each response attribute and category.
 
+
+
+
+Work from previous check ins:
 2.) Functions and Descriptions:
 2a.) def store_profile(): function to allow the profile user to put in their own integer scores for age, height, and perceived attriactiveness, as well as ranges for perceived extroversion, sociability, desired income, family connectedness, etc. the user also quanitifies how important each of these respective attributes would be in this function, which are paired stored with each variable key for calculations latter
 2b.) def convert_range_to_number(value): this function takes the range values from survey questions with range values and converts them from a letter a/b/c to a number 1/2/3. These numbers are then stored an used in calculating the absolute vale differences across categories between stored profiles and user inputs.
