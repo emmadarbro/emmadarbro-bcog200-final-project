@@ -43,7 +43,7 @@ def store_profile():
     This is where users "set up" their profile by inputting integer answers to the following survey questions 
     that are appended to the respective lists for comparison in the main function.
     """
-    print("Welcome to Brain Bae; where the Brain and Cognitive Science students of UIUC find you a bae! Below you will be asked a series of numerical questions related to some components that we will use to test your compatability with others in our candidate pool.")
+    print("Welcome to Brain Bestie; where the Brain and Cognitive Science students of UIUC find you a bestie! Below you will be asked a series of numerical questions related to some components that we will use to test your compatability with others in our candidate pool.")
     user = input("Please enter your name: ")
     print(f"Welcome, {user}! Please answer the following survey questions to help set up your profile!")
     while True:
@@ -180,7 +180,7 @@ def main():
     similarity_scores = compute_similarity(user_profile, initial_profiles)
     similarity_scores.sort(key=lambda x: x[0])
     
-    
+    print('Congratulations! It is a match! Below you can find our profile recommendations from our algorithm on similarities and values!')
     # this print statement will return the profiles and the difference amongst them, where the lowest scores are the most similar and the highest score are the most different
     print("Similarity scores:")
     for score, profile in similarity_scores:
